@@ -1,0 +1,50 @@
+ {
+      "id": 1,
+      "Fname": "Abera",
+      "Lname": "Melaku",
+      "email": "abe@example.com",
+      "salary": "3000",
+      "age": "21",
+      "gender": "M",
+      "height": "1.75m"
+    },
+    {
+      "id": 2,
+      "Fname": "Tayetu",
+      "Lname": "Betul",
+      "email": "tayetu@example.com",
+      "salary": "6000",
+      "age": "25",
+      "gender": "F",
+      "height": "1.55m"
+    },
+    {
+      "id": 3,
+      "Fname": "Berihun",
+      "Lname": "Aschale",
+      "email": "beriew@example.com",
+      "salary": "8000",
+      "age": "30",
+      "gender": "M",
+      "height": "1.60m"
+    },
+    {
+      "id": 4,
+      "Fname": "Hayat",
+      "Lname": "Abdurehmah",
+      "email": "Hayu@example.com",
+      "salary": "7000",
+      "age": "26",
+      "gender": "F",
+      "height": "1.65m"
+    },
+    {
+      "id": 5,
+      "Fname": "Ebrahim",
+      "Lname": "Awol",
+      "email": "eba@example.com",
+      "salary": "9000",
+      "age": "30",
+      "gender": "M",
+      "height": "1.80m"
+    },
