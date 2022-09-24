@@ -3,5 +3,11 @@
 * cd Employee_Management_Project
 * cd main
 * npm start ........ this will start the react server in port 3000
-* cd {JSON} Placeholder
+* open another terminal and :- cd {JSON} Placeholder
 * npm start ........ this will start the json backend server in port 3004/users
+* you can select any image for the profile but we provided a profile folder to make it easier
+## FUNCTIONALITY
+### You can :
+* add a new employee
+* edit existing employee
+* delete existing employee
