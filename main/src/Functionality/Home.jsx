@@ -3,7 +3,8 @@ import React, { Component, useEffect, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { Link, useParams } from "react-router-dom";
 import { toast } from "react-toastify";
-
+import { Button } from "rebass";
+import { css } from "@emotion/react";
 const Home = () => {
   const { id } = useParams();
   const employes = useSelector((state) => state);
@@ -20,9 +21,16 @@ const Home = () => {
     <div className="container">
       <div className="row">
         <div className="col-md-12 my-5 ">
-          <Link to="/add" className="btn btn-outline-dark text-center">
-            Add Emplyee
-          </Link>
+          <Button
+            fontSize={3}
+            as="a"
+            href="/add"
+            color="orange"
+            bg="#303030"
+            mr={2}
+          >
+            Add Employee
+          </Button>
         </div>
         <div className="col-md-12 mx-auto">
           <table className="table table-hover">
@@ -60,17 +68,23 @@ const Home = () => {
                   <td>
                     <Link
                       to={`/edit/${employe.id}`}
-                      className="btn btn-sm btn-primary mr-2"
+                      className="btn btn-md btn-secondary mr-2"
                     >
                       Edit
                     </Link>
-                    <button
-                      type="button"
+                    <Button
+                      fontSize={1}
+                      as="a"
+                      href="/delete"
+                      color="orange"
+                      bg="#303030"
+                      mr={3}
+                      ml={1}
+                      my={3}
                       onClick={() => deleteEmployee(employe.id)}
-                      className="btn btn-sm btn-danger "
                     >
                       Delete
-                    </button>
+                    </Button>
                   </td>
                 </tr>
               ))}
