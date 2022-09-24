@@ -11,7 +11,6 @@ const Home = () => {
   const dispatch = useDispatch();
   const deleteEmployee = async (id) => {
     const res = await axios.delete(`http://localhost:3004/users/${id}`);
-
     dispatch({ type: "DELETE_EMPLOYEE", payload: id });
     toast.success("Employee deleted successfully!!");
   };
@@ -73,11 +72,8 @@ const Home = () => {
                     </Link>
                     <Button
                       fontSize={1}
-                      as="a"
-                      href="/delete"
                       color="orange"
                       bg="#303030"
-                      mr={3}
                       ml={1}
                       my={3}
                       onClick={() => deleteEmployee(employe.id)}
