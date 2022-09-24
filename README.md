@@ -5,7 +5,7 @@
 * npm start ........ this will start the react server in port 3000
 * open another terminal and :- cd {JSON} Placeholder
 * npm start ........ this will start the json backend server in port 3004/users
-* you can select any image for the profile but we provided a profile folder to make it easier
+* you can select any image for the profile but we provided a Profile_Picture folder to make it easier
 ## FUNCTIONALITY
 ### You can :
 * add a new employee
