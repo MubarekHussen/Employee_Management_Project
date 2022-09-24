@@ -11,7 +11,6 @@ const Home = () => {
   const dispatch = useDispatch();
   const deleteEmployee = async (id) => {
     const res = await axios.delete(`http://localhost:3004/users/${id}`);
-    console.log("oooooooooooo", res.data);
 
     dispatch({ type: "DELETE_EMPLOYEE", payload: id });
     toast.success("Employee deleted successfully!!");

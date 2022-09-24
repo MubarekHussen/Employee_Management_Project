@@ -18,7 +18,6 @@ const App = () => {
   useEffect(() => {
     async function featchData() {
       const res = await axios.get("http://localhost:3004/users");
-      console.log("oooooooooooo", res.data);
       dispatch({ type: "GET_EMPLOYEE", payload: res.data });
     }
     featchData();
